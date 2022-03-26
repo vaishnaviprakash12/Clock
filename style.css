@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+}
+h2,
+h5 {
+  color: blue;
+  font-size: 5rem;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 5px;
+  background-color: black;
+}
+h5 {
+  color: blue;
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 5px;
+  background-color: black;
+}
