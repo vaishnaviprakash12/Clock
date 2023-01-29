@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 body {
   background-color: black;
   color: white;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+
 }
-h2,
+h4{
+  font-family: 'Source Code Pro', monospace;
+  color: whitesmoke;
+  text-align: left;
+  transition: 2s ease-in-out;
+  border-radius: 18px;
+  font-size: 1.5rem;
+  padding: 4px;
+}
+
+h4:hover{
+  background-color: blue;
+}
+
 h5 {
   color: blue;
   font-size: 5rem;
@@ -13,9 +32,30 @@ h5 {
 }
 h5 {
   color: blue;
-  font-size: 2rem;
+  font-size: 10rem;
   text-align: center;
   border: 2px solid black;
   margin-top: 5px;
   background-color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue; 
+  border-radius: 28px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
